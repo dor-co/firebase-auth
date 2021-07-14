@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Abel', sans-serif;
+}
+
+.dii{
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.login{
+  background: linear-gradient(to top right, #101326 42%, #263457 93%);
+  width: 550px;
+  height: 450px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  text-align: center;
+  border-radius: 12px;
+}
+ 
+.errorMsg{
+  color:rgb(189, 14, 14);
+}
+
+.loginContainer{
+  text-align: center;
+}  
+
+.loginTitle{
+  margin-top: 20px;
+  color: #fff;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.inp{
+  outline: none;
+  background: #8f88af;
+  border: none;
+  width: 160px;
+  height: 23px;
+  color: #fff;
+  border-radius: 4px;
+  opacity: 0.6;
+  padding-left: 5px;
+}
+
+.lab{
+  margin-top: 30px;
+  color: #fff;
+}
+
+.col{
+  flex-direction: column;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn{
+  margin-top: 60px;
+  background: #594891;
+  color: #fff;
+  border: none;
+  width: 200px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 4px;
+}
